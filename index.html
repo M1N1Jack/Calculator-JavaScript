@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="apps.js"></script>
+</head>
+<body>
+    <div id="containter">
+        <div id="calculatorbody">
+            <div id="dispaly">
+                <p id="targetElement"></p>
+                <p id="inp"></p>
+                <div class="buttons">
+                    <div class="allb">
+                        <div class="buttonline1">
+                            <button class="butt1 ba" id="addTextButtogit push -u origin mastern" value="1" onclick="appendToDisplay('1')">1</button>
+                            <button class="butt1 ba" id="2" value="2" onclick="appendToDisplay('2')">2</button>
+                            <button class="butt1 ba" id="3" value="3" onclick="appendToDisplay('3')">3</button>
+                            <button class="butt1 ba" id="4" value="4" onclick="appendToDisplay('4')">4</button>
+                        </div>
+                        <div class="buttonline2">
+                            <button class="butt2 ba" id="5" value="5" onclick="appendToDisplay('5')">5</button>
+                            <button class="butt2 ba" id="6" value="6" onclick="appendToDisplay('6')">6</button>
+                            <button class="butt2 ba" id="7" value="7" onclick="appendToDisplay('7')">7</button>
+                            <button class="butt2 ba" id="8" value="8" onclick="appendToDisplay('8')">8</button>
+                        </div>
+                        <div class="buttonline3">
+                            <button class="butt3 ba" id="9" value="9" onclick="appendToDisplay('9')">9</button>
+                            <button class="butt3 ba" id="0" value="0" onclick="appendToDisplay('0')">0</button>
+                            <button class="butt3 ba" id="plus" value="+" onclick="appendToDisplay('+')">+</button>
+                            <button class="butt3 ba" id="minus" value="-" onclick="appendToDisplay('-')">-</button>
+                        </div>
+                        <div class="buttonline4">
+                            <button class="butt4 ba" id="multi" value="*" onclick="appendToDisplay('*')">*</button>
+                            <button class="butt4 ba" id="dec" value="/" onclick="appendToDisplay('/')">/</button>
+                            <button class="butt4 ba" id="ravno" onclick="calculateResult()">=</button>
+                            <button class="butt4 ba" id="clear" onclick="clearDisplay()">C</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
